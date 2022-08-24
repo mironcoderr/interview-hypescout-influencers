@@ -1,0 +1,15 @@
+{
+    "logo": { "path": "/", "src": "images/logo.png", "alt": "logo" },
+    "navs": [
+        { "path": "/", "text": "dashboard" },
+        { "path": "#", "text": "campaign" },
+        { "path": "#", "text": "hypesocial" },
+        { "path": "#", "text": "insights" }
+    ],
+    "dropdown": [
+        { "icon": "fa-sun", "text": "light" },
+        { "icon": "fa-moon", "text": "dark" },
+        { "icon": "fa-desktop", "text": "system" }
+    ],
+    "user": { "name": "hi, rakib", "src": "images/user.png", "alt": "user" }
+}

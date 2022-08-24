@@ -1,0 +1,1852 @@
+{
+    "search": {
+        "title": "profile (100)",
+        "placeholder": "search profile",
+        "btnText": "advance filter"
+    },
+    "filter": {
+        "title": "filter options",
+        "select": [
+            {
+                "label": "Influencer’s industry",
+                "option": ["fashion", "food", "review", "education", "blogs", "travel"]
+            },
+            {
+                "label": "Influencer’s Country",
+                "option": ["bangladesh", "switzerland", "indonesia", "australia", "canada", "philippines"]
+            },
+            {
+                "label": "Audience’s Country",
+                "option": ["bangladesh", "switzerland", "indonesia", "australia", "canada", "philippines"]
+            },
+            {
+                "label": "Influencer’s Social Media",
+                "option": ["facebook", "linkedin", "instagram", "twitter", "youtube"]
+            }
+        ],
+        "range": {
+            "label": "Influencer’s Social Media platform"
+        },
+        "gender": {
+            "title": "Influencer’s Gender",
+            "radio": [
+                {
+                    "label": "male",
+                    "value": "male",
+                    "id": "male",
+                    "htmlFor": "male",
+                    "name": "gender"
+                },
+                {
+                    "label": "female",
+                    "value": "female",
+                    "id": "female",
+                    "htmlFor": "female",
+                    "name": "gender"
+                }
+            ]
+        }
+    },
+    "profile": [
+        {
+            "src": "images/avatar/01.png",
+            "alt": "avatar",
+            "name": "bruce leary",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "dhaka, bangladesh" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "400" },
+            "category": { "title": "categories", "value":"fashion" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/02.png",
+            "alt": "avatar",
+            "name": "mario buckley",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Cadiz, philippines" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "600" },
+            "category": { "title": "categories", "value":"blogs" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/03.png",
+            "alt": "avatar",
+            "name": "curtis johnson",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Jakarta, indonesia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "760" },
+            "category": { "title": "categories", "value":"review" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/04.png",
+            "alt": "avatar",
+            "name": "galen harden",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Zurich, switzerland" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "555" },
+            "category": { "title": "categories", "value":"food" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/05.png",
+            "alt": "avatar",
+            "name": "bill henderson",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Sydney, australia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "1000" },
+            "category": { "title": "categories", "value":"education" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/06.png",
+            "alt": "avatar",
+            "name": "george daniel",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "toronto, canada" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "390" },
+            "category": { "title": "categories", "value":"travel" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/07.png",
+            "alt": "avatar",
+            "name": "Carly Lawrence",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "dhaka, bangladesh" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "400" },
+            "category": { "title": "categories", "value":"fashion" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/08.png",
+            "alt": "avatar",
+            "name": "Anthony White",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Cadiz, philippines" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "600" },
+            "category": { "title": "categories", "value":"blogs" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/09.png",
+            "alt": "avatar",
+            "name": "Darlene Peace",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Jakarta, indonesia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "760" },
+            "category": { "title": "categories", "value":"review" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/10.png",
+            "alt": "avatar",
+            "name": "Dennis Wright",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Zurich, switzerland" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "555" },
+            "category": { "title": "categories", "value":"food" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/11.png",
+            "alt": "avatar",
+            "name": "Patrick Clark",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Sydney, australia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "1000" },
+            "category": { "title": "categories", "value":"education" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/12.png",
+            "alt": "avatar",
+            "name": "Darlene Hoagland",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "toronto, canada" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "390" },
+            "category": { "title": "categories", "value":"travel" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/13.png",
+            "alt": "avatar",
+            "name": "Jose Cochrane",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "dhaka, bangladesh" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "400" },
+            "category": { "title": "categories", "value":"fashion" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/14.png",
+            "alt": "avatar",
+            "name": "Maria Rodriguez",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Cadiz, philippines" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "600" },
+            "category": { "title": "categories", "value":"blogs" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/15.png",
+            "alt": "avatar",
+            "name": "Joseph Anderson",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Jakarta, indonesia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "760" },
+            "category": { "title": "categories", "value":"review" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/16.png",
+            "alt": "avatar",
+            "name": "Lloyd Hoffman",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Zurich, switzerland" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "555" },
+            "category": { "title": "categories", "value":"food" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/17.png",
+            "alt": "avatar",
+            "name": "Becky Locklear",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Sydney, australia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "1000" },
+            "category": { "title": "categories", "value":"education" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/18.png",
+            "alt": "avatar",
+            "name": "Dorothy Austin",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "toronto, canada" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "390" },
+            "category": { "title": "categories", "value":"travel" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/19.png",
+            "alt": "avatar",
+            "name": "Edward Pagano",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "dhaka, bangladesh" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "400" },
+            "category": { "title": "categories", "value":"fashion" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/20.png",
+            "alt": "avatar",
+            "name": "Kevin Arnold",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Cadiz, philippines" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "600" },
+            "category": { "title": "categories", "value":"blogs" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/09.png",
+            "alt": "avatar",
+            "name": "Darlene Peace",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Jakarta, indonesia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "760" },
+            "category": { "title": "categories", "value":"review" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/10.png",
+            "alt": "avatar",
+            "name": "Dennis Wright",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Zurich, switzerland" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "555" },
+            "category": { "title": "categories", "value":"food" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/11.png",
+            "alt": "avatar",
+            "name": "Patrick Clark",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Sydney, australia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "1000" },
+            "category": { "title": "categories", "value":"education" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/12.png",
+            "alt": "avatar",
+            "name": "Darlene Hoagland",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "toronto, canada" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "390" },
+            "category": { "title": "categories", "value":"travel" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/01.png",
+            "alt": "avatar",
+            "name": "bruce leary",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "dhaka, bangladesh" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "400" },
+            "category": { "title": "categories", "value":"fashion" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/02.png",
+            "alt": "avatar",
+            "name": "mario buckley",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Cadiz, philippines" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "600" },
+            "category": { "title": "categories", "value":"blogs" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/03.png",
+            "alt": "avatar",
+            "name": "curtis johnson",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Jakarta, indonesia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "760" },
+            "category": { "title": "categories", "value":"review" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/04.png",
+            "alt": "avatar",
+            "name": "galen harden",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Zurich, switzerland" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "555" },
+            "category": { "title": "categories", "value":"food" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/05.png",
+            "alt": "avatar",
+            "name": "bill henderson",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Sydney, australia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "1000" },
+            "category": { "title": "categories", "value":"education" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/06.png",
+            "alt": "avatar",
+            "name": "george daniel",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "toronto, canada" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "390" },
+            "category": { "title": "categories", "value":"travel" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/07.png",
+            "alt": "avatar",
+            "name": "Carly Lawrence",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "dhaka, bangladesh" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "400" },
+            "category": { "title": "categories", "value":"fashion" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/08.png",
+            "alt": "avatar",
+            "name": "Anthony White",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Cadiz, philippines" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "600" },
+            "category": { "title": "categories", "value":"blogs" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/09.png",
+            "alt": "avatar",
+            "name": "Darlene Peace",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Jakarta, indonesia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "760" },
+            "category": { "title": "categories", "value":"review" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/10.png",
+            "alt": "avatar",
+            "name": "Dennis Wright",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Zurich, switzerland" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "555" },
+            "category": { "title": "categories", "value":"food" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/11.png",
+            "alt": "avatar",
+            "name": "Patrick Clark",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Sydney, australia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "1000" },
+            "category": { "title": "categories", "value":"education" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/12.png",
+            "alt": "avatar",
+            "name": "Darlene Hoagland",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "toronto, canada" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "390" },
+            "category": { "title": "categories", "value":"travel" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/13.png",
+            "alt": "avatar",
+            "name": "Jose Cochrane",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "dhaka, bangladesh" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "400" },
+            "category": { "title": "categories", "value":"fashion" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/14.png",
+            "alt": "avatar",
+            "name": "Maria Rodriguez",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Cadiz, philippines" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "600" },
+            "category": { "title": "categories", "value":"blogs" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/15.png",
+            "alt": "avatar",
+            "name": "Joseph Anderson",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Jakarta, indonesia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "760" },
+            "category": { "title": "categories", "value":"review" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/16.png",
+            "alt": "avatar",
+            "name": "Lloyd Hoffman",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Zurich, switzerland" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "555" },
+            "category": { "title": "categories", "value":"food" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/17.png",
+            "alt": "avatar",
+            "name": "Becky Locklear",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Sydney, australia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "1000" },
+            "category": { "title": "categories", "value":"education" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/18.png",
+            "alt": "avatar",
+            "name": "Dorothy Austin",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "toronto, canada" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "390" },
+            "category": { "title": "categories", "value":"travel" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/19.png",
+            "alt": "avatar",
+            "name": "Edward Pagano",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "dhaka, bangladesh" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "400" },
+            "category": { "title": "categories", "value":"fashion" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/20.png",
+            "alt": "avatar",
+            "name": "Kevin Arnold",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Cadiz, philippines" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "600" },
+            "category": { "title": "categories", "value":"blogs" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/09.png",
+            "alt": "avatar",
+            "name": "Darlene Peace",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Jakarta, indonesia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "760" },
+            "category": { "title": "categories", "value":"review" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/10.png",
+            "alt": "avatar",
+            "name": "Dennis Wright",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Zurich, switzerland" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "555" },
+            "category": { "title": "categories", "value":"food" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/11.png",
+            "alt": "avatar",
+            "name": "Patrick Clark",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Sydney, australia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "1000" },
+            "category": { "title": "categories", "value":"education" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/12.png",
+            "alt": "avatar",
+            "name": "Darlene Hoagland",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "toronto, canada" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "390" },
+            "category": { "title": "categories", "value":"travel" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/01.png",
+            "alt": "avatar",
+            "name": "bruce leary",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "dhaka, bangladesh" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "400" },
+            "category": { "title": "categories", "value":"fashion" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/02.png",
+            "alt": "avatar",
+            "name": "mario buckley",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Cadiz, philippines" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "600" },
+            "category": { "title": "categories", "value":"blogs" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/03.png",
+            "alt": "avatar",
+            "name": "curtis johnson",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Jakarta, indonesia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "760" },
+            "category": { "title": "categories", "value":"review" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/04.png",
+            "alt": "avatar",
+            "name": "galen harden",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Zurich, switzerland" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "555" },
+            "category": { "title": "categories", "value":"food" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/05.png",
+            "alt": "avatar",
+            "name": "bill henderson",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Sydney, australia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "1000" },
+            "category": { "title": "categories", "value":"education" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/06.png",
+            "alt": "avatar",
+            "name": "george daniel",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "toronto, canada" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "390" },
+            "category": { "title": "categories", "value":"travel" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/07.png",
+            "alt": "avatar",
+            "name": "Carly Lawrence",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "dhaka, bangladesh" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "400" },
+            "category": { "title": "categories", "value":"fashion" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/08.png",
+            "alt": "avatar",
+            "name": "Anthony White",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Cadiz, philippines" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "600" },
+            "category": { "title": "categories", "value":"blogs" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/09.png",
+            "alt": "avatar",
+            "name": "Darlene Peace",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Jakarta, indonesia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "760" },
+            "category": { "title": "categories", "value":"review" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/10.png",
+            "alt": "avatar",
+            "name": "Dennis Wright",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Zurich, switzerland" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "555" },
+            "category": { "title": "categories", "value":"food" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/11.png",
+            "alt": "avatar",
+            "name": "Patrick Clark",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Sydney, australia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "1000" },
+            "category": { "title": "categories", "value":"education" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/12.png",
+            "alt": "avatar",
+            "name": "Darlene Hoagland",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "toronto, canada" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "390" },
+            "category": { "title": "categories", "value":"travel" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/13.png",
+            "alt": "avatar",
+            "name": "Jose Cochrane",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "dhaka, bangladesh" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "400" },
+            "category": { "title": "categories", "value":"fashion" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/14.png",
+            "alt": "avatar",
+            "name": "Maria Rodriguez",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Cadiz, philippines" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "600" },
+            "category": { "title": "categories", "value":"blogs" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/15.png",
+            "alt": "avatar",
+            "name": "Joseph Anderson",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Jakarta, indonesia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "760" },
+            "category": { "title": "categories", "value":"review" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/16.png",
+            "alt": "avatar",
+            "name": "Lloyd Hoffman",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Zurich, switzerland" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "555" },
+            "category": { "title": "categories", "value":"food" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/17.png",
+            "alt": "avatar",
+            "name": "Becky Locklear",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Sydney, australia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "1000" },
+            "category": { "title": "categories", "value":"education" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/18.png",
+            "alt": "avatar",
+            "name": "Dorothy Austin",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "toronto, canada" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "390" },
+            "category": { "title": "categories", "value":"travel" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/19.png",
+            "alt": "avatar",
+            "name": "Edward Pagano",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "dhaka, bangladesh" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "400" },
+            "category": { "title": "categories", "value":"fashion" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/20.png",
+            "alt": "avatar",
+            "name": "Kevin Arnold",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Cadiz, philippines" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "600" },
+            "category": { "title": "categories", "value":"blogs" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/09.png",
+            "alt": "avatar",
+            "name": "Darlene Peace",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Jakarta, indonesia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "760" },
+            "category": { "title": "categories", "value":"review" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/10.png",
+            "alt": "avatar",
+            "name": "Dennis Wright",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Zurich, switzerland" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "555" },
+            "category": { "title": "categories", "value":"food" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/11.png",
+            "alt": "avatar",
+            "name": "Patrick Clark",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Sydney, australia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "1000" },
+            "category": { "title": "categories", "value":"education" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/12.png",
+            "alt": "avatar",
+            "name": "Darlene Hoagland",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "toronto, canada" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "390" },
+            "category": { "title": "categories", "value":"travel" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/01.png",
+            "alt": "avatar",
+            "name": "bruce leary",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "dhaka, bangladesh" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "400" },
+            "category": { "title": "categories", "value":"fashion" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/02.png",
+            "alt": "avatar",
+            "name": "mario buckley",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Cadiz, philippines" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "600" },
+            "category": { "title": "categories", "value":"blogs" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/03.png",
+            "alt": "avatar",
+            "name": "curtis johnson",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Jakarta, indonesia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "760" },
+            "category": { "title": "categories", "value":"review" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/04.png",
+            "alt": "avatar",
+            "name": "galen harden",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Zurich, switzerland" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "555" },
+            "category": { "title": "categories", "value":"food" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/05.png",
+            "alt": "avatar",
+            "name": "bill henderson",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Sydney, australia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "1000" },
+            "category": { "title": "categories", "value":"education" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/06.png",
+            "alt": "avatar",
+            "name": "george daniel",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "toronto, canada" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "390" },
+            "category": { "title": "categories", "value":"travel" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/07.png",
+            "alt": "avatar",
+            "name": "Carly Lawrence",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "dhaka, bangladesh" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "400" },
+            "category": { "title": "categories", "value":"fashion" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/08.png",
+            "alt": "avatar",
+            "name": "Anthony White",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Cadiz, philippines" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "600" },
+            "category": { "title": "categories", "value":"blogs" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/09.png",
+            "alt": "avatar",
+            "name": "Darlene Peace",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Jakarta, indonesia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "760" },
+            "category": { "title": "categories", "value":"review" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/10.png",
+            "alt": "avatar",
+            "name": "Dennis Wright",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Zurich, switzerland" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "555" },
+            "category": { "title": "categories", "value":"food" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/11.png",
+            "alt": "avatar",
+            "name": "Patrick Clark",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Sydney, australia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "1000" },
+            "category": { "title": "categories", "value":"education" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/12.png",
+            "alt": "avatar",
+            "name": "Darlene Hoagland",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "toronto, canada" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "390" },
+            "category": { "title": "categories", "value":"travel" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/13.png",
+            "alt": "avatar",
+            "name": "Jose Cochrane",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "dhaka, bangladesh" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "400" },
+            "category": { "title": "categories", "value":"fashion" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/14.png",
+            "alt": "avatar",
+            "name": "Maria Rodriguez",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Cadiz, philippines" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "600" },
+            "category": { "title": "categories", "value":"blogs" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/15.png",
+            "alt": "avatar",
+            "name": "Joseph Anderson",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Jakarta, indonesia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "760" },
+            "category": { "title": "categories", "value":"review" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/16.png",
+            "alt": "avatar",
+            "name": "Lloyd Hoffman",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Zurich, switzerland" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "555" },
+            "category": { "title": "categories", "value":"food" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/17.png",
+            "alt": "avatar",
+            "name": "Becky Locklear",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Sydney, australia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "1000" },
+            "category": { "title": "categories", "value":"education" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/18.png",
+            "alt": "avatar",
+            "name": "Dorothy Austin",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "toronto, canada" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "390" },
+            "category": { "title": "categories", "value":"travel" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/19.png",
+            "alt": "avatar",
+            "name": "Edward Pagano",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "dhaka, bangladesh" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "400" },
+            "category": { "title": "categories", "value":"fashion" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/20.png",
+            "alt": "avatar",
+            "name": "Kevin Arnold",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Cadiz, philippines" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "600" },
+            "category": { "title": "categories", "value":"blogs" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/09.png",
+            "alt": "avatar",
+            "name": "Darlene Peace",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Jakarta, indonesia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "760" },
+            "category": { "title": "categories", "value":"review" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/10.png",
+            "alt": "avatar",
+            "name": "Dennis Wright",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Zurich, switzerland" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "555" },
+            "category": { "title": "categories", "value":"food" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/11.png",
+            "alt": "avatar",
+            "name": "Patrick Clark",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Sydney, australia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "1000" },
+            "category": { "title": "categories", "value":"education" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/12.png",
+            "alt": "avatar",
+            "name": "Darlene Hoagland",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "toronto, canada" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "390" },
+            "category": { "title": "categories", "value":"travel" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/07.png",
+            "alt": "avatar",
+            "name": "Carly Lawrence",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "dhaka, bangladesh" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "400" },
+            "category": { "title": "categories", "value":"fashion" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/08.png",
+            "alt": "avatar",
+            "name": "Anthony White",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Cadiz, philippines" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" }
+            ],
+            "follower": { "title": "followers", "value": "600" },
+            "category": { "title": "categories", "value":"blogs" },
+            "gender": { "title": "gender", "value": "male" }
+        },
+        {
+            "src": "images/avatar/09.png",
+            "alt": "avatar",
+            "name": "tahmina bonny",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Jakarta, indonesia" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"facebook", "path": "#", "icon": "fa-square-facebook" },
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "760" },
+            "category": { "title": "categories", "value":"review" },
+            "gender": { "title": "gender", "value": "female" }
+        },
+        {
+            "src": "images/avatar/10.png",
+            "alt": "avatar",
+            "name": "miron mahmud",
+            "meta": [
+                { "icon": "fa-solid fa-location-dot", "text": "Zurich, switzerland" },
+                { "icon": "fa-solid fa-clock", "text": "joined on: july 26th 2022" }
+            ],
+            "social": [
+                { "name":"youtube", "path": "#", "icon": "fa-youtube" },
+                { "name":"linkedin", "path": "#", "icon": "fa-linkedin" },
+                { "name":"instagram", "path": "#", "icon": "fa-instagram" },
+                { "name":"twitter", "path": "#", "icon": "fa-twitter" }
+            ],
+            "follower": { "title": "followers", "value": "555" },
+            "category": { "title": "categories", "value":"food" },
+            "gender": { "title": "gender", "value": "male" }
+        }
+    ]
+}

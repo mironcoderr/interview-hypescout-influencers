@@ -1,0 +1,44 @@
+{
+    "logo": { "path": "/", "src": "images/logo.png", "alt": "logo" },
+    "descrip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum sed ultricies volutpat rhoncus faucibus sit.",
+    "social": [
+        { "path": "#", "icon": "fa-square-facebook" },
+        { "path": "#", "icon": "fa-instagram" },
+        { "path": "#", "icon": "fa-linkedin" },
+        { "path": "#", "icon": "fa-twitter" }
+    ],
+    "navs":[
+        {
+            "title": "company",
+            "menu": [
+                { "path": "#", "text": "about us" },
+                { "path": "#", "text": "careers" },
+                { "path": "#", "text": "case study" },
+                { "path": "#", "text": "blogs" },
+                { "path": "#", "text": "contact us" }
+            ]
+        },
+        {
+            "title": "influencer",
+            "menu": [
+                { "path": "#", "text": "join as influencer" },
+                { "path": "#", "text": "hypesocial" }
+            ]
+        },
+        {
+            "title": "advertiser",
+            "menu": [
+                { "path": "#", "text": "join as advertiser" },
+                { "path": "#", "text": "hypelink" }
+            ]
+        }
+    ],
+    "bottom": {
+        "text": "© Hypescout 2022. All rights reserved",
+        "navs": [
+            { "path": "#", "text": "terms & consitions" },
+            { "path": "#", "text": "privacy" },
+            { "path": "#", "text": "sitemap" }
+        ]
+    }
+}
